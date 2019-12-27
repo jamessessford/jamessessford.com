@@ -10,7 +10,7 @@
 @section('body')
     
 <img src="/assets/img/logo-large.svg"
-        alt="About image"
+        alt="Animated image of James Sessford"
         class="flex h-64 w-64 bg-contain mx-auto md:float-right my-6 md:ml-10">
 
     <p class="mb-6 text-2xl">Hello friend, </p>
@@ -18,7 +18,7 @@
     <p class="mb-6">A Scottish PHP &amp; JavaScript developer spending time over the border.</p>
 
     <p class="mb-6">
-        Currently bringing car leasing websites to a screen near you via <a href="https://www.atticusconsultancy.co.uk">Atticus Consultancy</a> and trying to
+        Currently bringing car leasing websites to a screen near you via <a href="http://www.atticusconsultancy.co.uk">Atticus Consultancy</a> and trying to
         improve the internet, one website at a time, with most of the other free time I have.
     </p>
 
@@ -54,7 +54,7 @@
     </ul>
 
     <p class="mb-6">
-        I am currently not looking for a new full time opportunity but I'm very interested in new freelance work.
+        I'm not currently looking for a new full time opportunity but I'm very interested in new freelance work.
         If you have a project you'd like to discuss, please get in touch via email @ hello(at)jamessessford(dot)com.
     </p>
 
