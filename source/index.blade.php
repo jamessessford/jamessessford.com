@@ -7,11 +7,12 @@
     <meta property="og:description" content="A little bit about {{ $page->siteName }}" />
 @endpush
 
-@section('body')
-    
-<img src="/assets/img/logo-large.svg"
+@section('body')    
+    <img class="flex h-64 w-64 bg-contain mx-auto md:float-right my-6 md:ml-10 b-lazy" 
+        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+        data-src="/assets/img/logo-large.svg"
         alt="Animated image of James Sessford"
-        class="flex h-64 w-64 bg-contain mx-auto md:float-right my-6 md:ml-10">
+        >
 
     <p class="mb-6 text-2xl">Hello friend, </p>
 

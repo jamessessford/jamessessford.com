@@ -1,10 +1,10 @@
 <?php
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'http://jamessessford.com.test',
     'production' => false,
     'siteName' => 'James Sessford',
-    'siteDescription' => 'The kid considers things',
+    'siteDescription' => 'Considering things',
     'siteAuthor' => 'James Sessford',
 
     // collections

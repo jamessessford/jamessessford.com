@@ -5,14 +5,14 @@
     </a> --}}
     <a title="James Sessford' GitHub account" href="#"
         class="ml-6">
-        <img class="h-8 md:h-10 mr-3" src="/assets/img/github-alt-brands.svg" alt="James Sessford' GitHub Account" />
+        <img class="h-8 mr-1 b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/img/github-alt-brands.svg" alt="James Sessford' GitHub Account" />
     </a>
     <a title="James Sessford' Twitter account" href="#"
         class="ml-6">
-        <img class="h-8 md:h-10 mr-3" src="/assets/img/twitter-square-brands.svg" alt="James Sessford' Twitter Account" />
+        <img class="h-8 mr-1 b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/img/twitter-square-brands.svg" alt="James Sessford' Twitter Account" />
     </a>
     <a title="James Sessford' Linked In account" href="#"
         class="ml-6">
-        <img class="h-8 md:h-10 mr-3" src="/assets/img/linkedin-brands.svg" alt="James Sessford' Linked In Account" />
+        <img class="h-8 mr-1 b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/img/linkedin-brands.svg" alt="James Sessford' Linked In Account" />
     </a>
 </nav>
