@@ -38,13 +38,13 @@
                     </a>
                 </div>
 
-                {{-- <div id="vue-search" class="flex flex-1 justify-end items-center">
-                    <search></search>
+                <div id="vue-search" class="flex flex-1 justify-end items-center">
+                    {{-- <search></search> --}}
 
                     @include('_nav.menu')
 
                     @include('_nav.menu-toggle')
-                </div> --}}
+                </div>
             </div>
         </header>
 
@@ -55,8 +55,8 @@
         </main>
 
         <footer class="bg-white text-center text-sm mt-12 py-4 justify-center" role="contentinfo">
-            Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>
-            and <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a>.
+            Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>, 
+            <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a> and icons from <a href="https://fontawesome.com/license" title="Font Awesome website">Font Awesome</a>.
         </footer>
 
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>

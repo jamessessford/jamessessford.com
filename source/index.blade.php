@@ -44,7 +44,8 @@
 
     <p>Through work, freelance and tinkering in my own time, I have exposure to:</p>
     <ul>
-        <li>React Native</li>
+        <li>React Native (Android)</li>
+        <li>Redux</li>
         <li>Materialize</li>
         <li>Skeleton</li>
         <li>TypeScript</li>
