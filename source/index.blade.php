@@ -19,7 +19,7 @@
     <h2 class="mb-2">The day job</h2>
 
     <p class="mb-6">
-        By day I'm writing PHP, JavaScript or CSS for Atticus Consultancy. This can involve writing modules for
+        By day I'm a senior developer at Atticus Consultancy and tasked with writing PHP, JavaScript or CSS. This can involve writing modules for
         their <a href="http://atticusconsultancy.co.uk/sonelle">Sonelle CMS</a> 
         or using Sonelle to build rich user experiences for both Atticus' customers and their customer's customers.  
     </p>
@@ -27,15 +27,15 @@
     <h2 class="mb-2">The moonlight</h2>
 
     <p class="mb-6">
-        By night I'm writing software that I hope may leave a small footprint on the journey of the internet. <br /><br />
+        By night I'm writing software that I hope may leave a positive footprint on the journey of the internet. <br /><br />
         I started with the belief that if a project could run and be successful in the wild, it should be built and able to run
         on the most limited hardware I had access to. Whilst my original laptop and Rasbperry Pi have since been retired, 
         this ethos has remained and all projects go through a deployment cycle reliant on my Raspberry Pi.
     </p>
 
-    <h2 class="mb-2">The teck stack</h2>
+    <h2 class="mb-2">The tech stack</h2>
 
-    <p class="mb-2">Day to day, I could be working with:</p>
+    <p class="mb-2">Day to day, I'll be working with:</p>
     <ul class="mb-6">
         <li>PHP</li>
         <li>Laravel</li>
@@ -53,6 +53,7 @@
         <li>Materialize</li>
         <li>Skeleton</li>
         <li>MySQL</li>
+        <li>Redis</li>
         <li>Docker</li>
         <li>Linux</li>
         <li>Git, GitFlow, GitHub &amp; BitBucket</li>
@@ -63,7 +64,7 @@
         I'm always interested in new freelance work. If you have a project you'd like to discuss, please get in touch via email @ hello(at)jamessessford(dot)com.
     </p>
 
-    {{-- <p class="mb-6">
-        Here you'll find musings on code, music, films, games and all of the other things I feel like talking about or trying to arrange into more cohesive thoughts.
-    </p> --}}
+    <p class="mb-6">
+        <a href="/blog" title="{{ $page->siteName }}' blog">In my blog</a>, you'll find musings on code, music, films, games and all of the other things I feel like talking about or trying to arrange into more cohesive thoughts.
+    </p>
 @endsection

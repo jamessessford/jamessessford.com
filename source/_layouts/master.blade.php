@@ -15,7 +15,7 @@
 
         <link rel="home" href="{{ $page->baseUrl }}">
         <link rel="icon" href="/favicon.ico">
-        {{-- <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed"> --}}
+        <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
 
         @stack('meta')
 
@@ -34,7 +34,7 @@
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
                         <img class="h-8 md:h-10 mr-3 b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/img/logo.svg" alt="{{ $page->siteName }} logo" />
 
-                        <h1 class="text-lg md:text-2xl text-green-800 font-semibold hover:text-green-900 my-0">{{ $page->siteName }}</h1>
+                        <h1 class="no-underline text-lg md:text-2xl text-green-800 font-semibold hover:text-green-900 my-0">{{ $page->siteName }}</h1>
                     </a>
                 </div>
 

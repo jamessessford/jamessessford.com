@@ -7,15 +7,9 @@
         <a
             href="{{ $post->getUrl() }}"
             title="Read more - {{ $post->title }}"
-            class="text-gray-900 font-extrabold"
+            class="font-extrabold"
         >{{ $post->title }}</a>
     </h2>
 
     <p class="mb-4 mt-0">{!! $post->getExcerpt(200) !!}</p>
-
-    <a
-        href="{{ $post->getUrl() }}"
-        title="Read more - {{ $post->title }}"
-        class="uppercase font-semibold tracking-wide mb-2"
-    >Read</a>
 </div>

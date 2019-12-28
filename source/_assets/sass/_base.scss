@@ -52,7 +52,8 @@ h6 {
     @apply .leading-tight;
     @apply .mb-4;
     @apply .mt-8;
-    @apply .text-gray-900;
+    @apply .text-green-900;
+    @apply .underline;
 
     &:first-child {
         @apply .mt-0;
@@ -87,6 +88,17 @@ h5 {
 h6 {
     @apply .font-light;
     @apply .text-lg;
+}
+
+a {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply .no-underline;
+    }
 }
 
 hr {
