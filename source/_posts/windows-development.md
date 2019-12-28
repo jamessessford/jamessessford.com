@@ -8,7 +8,8 @@ categories: [development]
 excerpt: A look at the environment I've built for web development on Windows.
 ---
 
-My general development environment on Windows consists of VSCode, Firefox, PHP, MySQL, Redis &amp; Node.
+My general development environment on Windows consists of VSCode, Firefox, PHP, 
+MySQL, Redis &amp; Node.
 
     -   VSCode for editing files
     -   PHP to serve the application (php artisan serve)

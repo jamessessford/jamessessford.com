@@ -28,6 +28,9 @@ return [
     'getDate' => function ($page) {
         return Datetime::createFromFormat('U', $page->date);
     },
+    'getEdited' => function ($page) {
+        return Datetime::createFromFormat('U', ($page->edited ?? $page->date));
+    },
     'getExcerpt' => function ($page, $length = 255) {
         if ($page->excerpt) {
             return $page->excerpt;
