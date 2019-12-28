@@ -12,6 +12,7 @@ My general development environment on Windows consists of VSCode, Firefox, PHP, 
 
     -   VSCode for editing files
     -   PHP to serve the application (php artisan serve)
+    -   Windows Terminal running PHP tasks (php artisan queue:work)
     -   MySQL and Redis running as background services
     -   Node running webpack or gulp
     -   Firefox to view the website

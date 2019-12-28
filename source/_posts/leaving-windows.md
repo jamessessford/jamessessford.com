@@ -12,11 +12,12 @@ Before I look at the reasons that got me to leave Windows, I must first state th
 
 I have a steady job that doesn't always require me to work extra hours so I have free time to play with different OSes and fortunate to have two laptops in the house that I could tinker with.
 
-My girlfriend and I both had Windows machines, hers for college work and email, mine for web development. Both laptops are around five years old.
+My girlfriend and I both had Windows machines, hers for college work and email, 
+mine for web development. Both laptops are around five years old.
 
 **Hers:**
 
-    -   Toshiba Satalite
+    -   Toshiba Satelite
     -   AMD Dual Core
     -   4gb RAM
     -   Windows 8
@@ -50,3 +51,6 @@ Attempts to get both my machine to a state I was happy developing in and the Tos
 
 My laptop was decent enough for college work and I was willing to take a chance that I could put linux on the Toshiba and it be a comparable, if not better, experience to the Windows machine I was currently using. My expectations were completely blown away.
 
+While not achieving the bar set by the Raspberry Pi, which didn't have VSCode or any of the other background services required to run the Windows laptop, the Toshiba reported < 1s response time and ~5mb memory consumption for initial page load and then ~750ms response time there after.
+
+The next little while will be spent rebuilding my development environment on an Ubuntu machine :)
