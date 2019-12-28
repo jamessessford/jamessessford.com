@@ -1,18 +1,18 @@
 <nav class="hidden lg:flex items-center justify-end text-lg">
-    {{-- <a title="{{ $page->siteName }} Blog: The kid considers things" href="/blog"
-        class="ml-6 text-gray-700 hover:text-blue-600 {{ $page->isActive('/blog') ? 'active text-blue-600' : '' }}">
+    {{-- <a title="{{ $page->siteName }}'s Blog" href="/blog"
+        class="ml-6 text-green-800 hover:text-green-900 {{ $page->isActive('/blog') ? 'active text-green-900' : '' }}">
         Blog
     </a> --}}
-    <a title="James Sessford' GitHub account" href="#"
+    <a href="https://github.com/jamessessford/"
         class="ml-6">
-        <img class="h-8 mr-1 b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/img/github-alt-brands.svg" alt="James Sessford' GitHub Account" />
+        <img class="h-8 mr-1 b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/img/github-alt-brands.svg" alt="Go to James Sessford's GitHub Account" />
     </a>
-    <a title="James Sessford' Twitter account" href="#"
+    <a href="https://twitter.com/@sesticles"
         class="ml-6">
-        <img class="h-8 mr-1 b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/img/twitter-square-brands.svg" alt="James Sessford' Twitter Account" />
+        <img class="h-8 mr-1 b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/img/twitter-square-brands.svg" alt="Go to James Sessford's Twitter Account" />
     </a>
-    <a title="James Sessford' Linked In account" href="#"
+    <a href="https://uk.linkedin.com/in/james-sessford-349b1511"
         class="ml-6">
-        <img class="h-8 mr-1 b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/img/linkedin-brands.svg" alt="James Sessford' Linked In Account" />
+        <img class="h-8 mr-1 b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/img/linkedin-brands.svg" alt="Go to James Sessford's Linked In Account" />
     </a>
 </nav>

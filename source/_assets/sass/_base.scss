@@ -3,12 +3,12 @@ body {
 }
 
 a {
-    @apply .font-semibold;
+    @apply .font-black;
     @apply .no-underline;
-    @apply .text-blue-600;
+    @apply .text-green-800;
 
     &:hover {
-        @apply .text-blue-800;
+        @apply .text-green-900;
     }
 }
 

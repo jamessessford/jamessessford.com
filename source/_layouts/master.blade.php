@@ -15,7 +15,7 @@
 
         <link rel="home" href="{{ $page->baseUrl }}">
         <link rel="icon" href="/favicon.ico">
-        <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
+        {{-- <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed"> --}}
 
         @stack('meta')
 
@@ -23,18 +23,18 @@
             <!-- Insert analytics code here -->
         @endif
 
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans relative">
-        <header class="flex items-center shadow bg-white border-b h-24 py-4 sticky top-0" role="banner">
+        <a class="focusable visually-hidden" href="#main-content">Skip to main content</a>
+        <header class="flex items-center shadow bg-white border-b h-16 py-4 sticky top-0" role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
                         <img class="h-8 md:h-10 mr-3 b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/img/logo.svg" alt="{{ $page->siteName }} logo" />
 
-                        <h1 class="text-lg md:text-2xl text-blue-800 font-semibold hover:text-blue-600 my-0">{{ $page->siteName }}</h1>
+                        <h1 class="text-lg md:text-2xl text-green-800 font-semibold hover:text-green-900 my-0">{{ $page->siteName }}</h1>
                     </a>
                 </div>
 
@@ -50,7 +50,7 @@
 
         @include('_nav.menu-responsive')
 
-        <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
+        <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6" id="main-content">
             @yield('body')
         </main>
 
@@ -59,8 +59,8 @@
             <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a> and icons from <a href="https://fontawesome.com/license" title="Font Awesome website">Font Awesome</a>.
         </footer>
 
-        <script src="{{ mix('js/main.js', 'assets/build') }}" defer></script>
-
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
+        <script src="{{ mix('js/main.js', 'assets/build') }}" defer async></script>
         @stack('scripts')
     </body>
 </html>

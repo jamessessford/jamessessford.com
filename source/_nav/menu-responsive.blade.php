@@ -4,30 +4,27 @@
             <a
                 title="{{ $page->siteName }} Blog"
                 href="/blog"
-                class="nav-menu__item hover:text-blue-500 {{ $page->isActive('/blog') ? 'active text-blue' : '' }}"
+                class="nav-menu__item {{ $page->isActive('/blog') ? 'active text-green-900' : '' }}"
             >Blog</a>
         </li> --}}
 
         <li class="px-4">
-            <a title="James Sessford' GitHub account" href="#"
-                class="nav-menu__item flex justify-between items-center">
-                <img class="h-8 mr-1 inline-block b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/img/github-alt-brands.svg" alt="James Sessford' GitHub Account" />
+            <a href="https://github.com/jamessessford/"
+                class="nav-menu__item text-green-800 hover:text-green-900">
                 GitHub
             </a>
         </li>
 
         <li class="px-4">
-            <a title="James Sessford' Twitter account" href="#"
-                class="nav-menu__item flex justify-between items-center">
-                <img class="h-8 mr-1 inline-block b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/img/twitter-square-brands.svg" alt="James Sessford' Twitter Account" />
+            <a href="https://twitter.com/@sesticles"
+                class="nav-menu__item text-green-800 hover:text-green-900">
                 Twitter
             </a>
         </li>
 
         <li class="px-4">
-            <a title="James Sessford' Linked In account" href="#"
-                class="nav-menu__item flex justify-between items-center">
-                <img class="h-8 mr-1 inline-block b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/img/linkedin-brands.svg" alt="James Sessford' Linked In Account" />
+            <a href="https://uk.linkedin.com/in/james-sessford-349b1511"
+                class="nav-menu__item text-green-800 hover:text-green-900">
                 Linked In
             </a>
         </li>

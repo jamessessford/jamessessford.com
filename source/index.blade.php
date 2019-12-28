@@ -14,50 +14,53 @@
         alt="Animated image of James Sessford"
         >
 
-    <p class="mb-6 text-2xl">Hello friend, </p>
+    <p class="mb-6">A Scottish programmer, specialising in web application and UI development &amp; currently spending time over the border.</p>
 
-    <p class="mb-6">A Scottish PHP &amp; JavaScript developer spending time over the border.</p>
+    <h2 class="mb-2">The day job</h2>
 
     <p class="mb-6">
-        Currently bringing car leasing websites to a screen near you via <a href="http://www.atticusconsultancy.co.uk">Atticus Consultancy</a> and trying to
-        improve the internet, one website at a time, with most of the other free time I have.
+        By day I'm writing PHP, JavaScript or CSS for Atticus Consultancy. This can involve writing modules for
+        their <a href="http://atticusconsultancy.co.uk/sonelle">Sonelle CMS</a> 
+        or using Sonelle to build rich user experiences for both Atticus' customers and their customer's customers.  
     </p>
 
-    <p>My tech stack at work is:</p>
-    <ul>
-        <li>PHP (custom CMS built by Atticus)</li>
-        <li>CSS (CSS3/Bootstrap)</li>
-        <li>JavaScript (Vanilla/jQuery)</li>
+    <h2 class="mb-2">The moonlight</h2>
+
+    <p class="mb-6">
+        By night I'm writing software that I hope may leave a small footprint on the journey of the internet. <br /><br />
+        I started with the belief that if a project could run and be successful in the wild, it should be built and able to run
+        on the most limited hardware I had access to. Whilst my original laptop and Rasbperry Pi have since been retired, 
+        this ethos has remained and all projects go through a deployment cycle reliant on my Raspberry Pi.
+    </p>
+
+    <h2 class="mb-2">The teck stack</h2>
+
+    <p class="mb-2">Day to day, I could be working with:</p>
+    <ul class="mb-6">
+        <li>PHP</li>
+        <li>Laravel</li>
+        <li>WordPress</li>
+        <li>Livewire</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>React</li>
+        <li>Inertia.js</li>
+        <li>React Native (Android)</li>
+        <li>Redux</li>
+        <li>CSS</li>
+        <li>Tailwind</li>
+        <li>Less</li>
+        <li>Materialize</li>
+        <li>Skeleton</li>
         <li>MySQL</li>
         <li>Docker</li>
-        <li>SCM (Git)</li>
+        <li>Linux</li>
+        <li>Git, GitFlow, GitHub &amp; BitBucket</li>
         <li>Node.js</li>
     </ul>
 
-    <p>My freelance tech stack is:</p>
-    <ul>
-        <li>All of the above &plus;</li>
-        <li>Laravel</li>
-        <li>React</li>
-        <li>Tailwind</li>
-        <li>Inertia.js</li>
-    </ul>
-
-    <p>Through work, freelance and tinkering in my own time, I have exposure to:</p>
-    <ul>
-        <li>React Native (Android)</li>
-        <li>Redux</li>
-        <li>Materialize</li>
-        <li>Skeleton</li>
-        <li>TypeScript</li>
-        <li>WordPress</li>
-        <li>Linux</li>
-        <li>Livewire</li>
-    </ul>
-
     <p class="mb-6">
-        I'm not currently looking for a new full time opportunity but I'm very interested in new freelance work.
-        If you have a project you'd like to discuss, please get in touch via email @ hello(at)jamessessford(dot)com.
+        I'm always interested in new freelance work. If you have a project you'd like to discuss, please get in touch via email @ hello(at)jamessessford(dot)com.
     </p>
 
     {{-- <p class="mb-6">
