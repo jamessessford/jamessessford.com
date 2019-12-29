@@ -35,9 +35,9 @@ pagination:
         <hr class="border-b my-6">
     @endforeach
 
-    <div class="flex flex-col md:flex-row md:-mx-6">
+    <div class="flex flex-col md:flex-row md:-mx-6 md:my-4 flex-wrap">
         @foreach ($pagination->items as $post)
-            <div class="w-full md:w-1/2 md:mx-6">
+            <div class="w-full md:w-1/3 px-2">
                 @include('_components.post-preview-inline')
             </div>
 
