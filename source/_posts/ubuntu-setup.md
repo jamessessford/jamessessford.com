@@ -3,9 +3,9 @@ extends: _layouts.post
 section: content
 title: Ubuntu setup
 date: 2019-12-08
-description: Installing Ubuntu and setting up applications
+description: Installing Ubuntu and setting up applications.
 categories: [ubuntu]
-excerpt: Getting Ubuntu installed.
+excerpt: Getting Ubuntu installed and setting up applications.
 ---
 
 I'd set aside a couple of days to get my laptop fully up and running; 

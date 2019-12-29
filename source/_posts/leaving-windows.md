@@ -3,7 +3,7 @@ extends: _layouts.post
 section: content
 title: Leaving Windows
 date: 2019-12-07
-description: Leaving Windows to try Ubuntu
+description: A look at the reasons that got me to leave Windows and give Ubuntu a proper try.
 categories: [ubuntu, development]
 excerpt: A look at the reasons that got me to leave Windows and give Ubuntu a proper try.
 ---

@@ -1,7 +1,7 @@
 ---
 pagination:
     collection: posts
-    perPage: 4
+    perPage: 12
 ---
 @extends('_layouts.master')
 
@@ -13,7 +13,7 @@ pagination:
 @endpush
 
 @section('body')
-    
+
     @foreach ($posts->where('featured', true)->take(1) as $featuredPost)
         <div class="w-full mb-6">
             @if ($featuredPost->cover_image)
@@ -61,7 +61,7 @@ pagination:
                 <a
                     href="{{ $path }}"
                     title="Go to Page {{ $pageNumber }}"
-                    class="bg-gray-200 hover:bg-gray-400 text-blue-700 rounded mr-3 px-5 py-3 {{ $pagination->currentPage == $pageNumber ? 'text-blue-600' : '' }}"
+                    class="bg-gray-200 hover:bg-gray-400 text-green-800 rounded mr-3 px-5 py-3 {{ $pagination->currentPage == $pageNumber ? 'text-green-900' : '' }}"
                 >{{ $pageNumber }}</a>
             @endforeach
 

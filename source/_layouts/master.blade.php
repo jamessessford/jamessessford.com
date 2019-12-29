@@ -27,7 +27,7 @@
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans relative">
-        <a class="focusable visually-hidden" href="#main-content">Skip to main content</a>
+        <a class="focusable visually-hidden top-16 py-4 text-center block" href="#main-content">Skip to main content</a>
         <header class="flex items-center shadow bg-white border-b h-16 py-4 sticky top-0" role="banner">
             <div class="container flex items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center">

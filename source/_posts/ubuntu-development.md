@@ -3,7 +3,7 @@ extends: _layouts.post
 section: content
 title: Ubuntu development
 date: 2019-12-10
-description: Web development on Ubuntu
+description: A look at the environment I've built for web development on Ubuntu.
 categories: [ubuntu, development]
 excerpt: A look at the environment I've built for web development on Ubuntu.
 ---

@@ -3,7 +3,7 @@ extends: _layouts.post
 section: content
 title: Windows development
 date: 2019-12-01
-description: Web development on Windows
+description: A look at the environment I've built for web development on Windows.
 categories: [development]
 excerpt: A look at the environment I've built for web development on Windows.
 ---
