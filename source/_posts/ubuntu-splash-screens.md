@@ -6,6 +6,8 @@ date: 2019-12-23
 description: A look at customising the splash screen for Ubuntu.
 categories: [ubuntu]
 excerpt: A look at customising the splash screen for Ubuntu.
+cover_image: /assets/img/ubuntu-splash-screen.png
+featured: true
 ---
 
 I'd like to start by saying that I consider myself **terrible** at design

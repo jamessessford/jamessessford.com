@@ -9,7 +9,7 @@
 
 @section('body')
     @if ($page->cover_image)
-        <img src="{{ $page->cover_image }}" alt="{{ $page->title }} cover image" class="mb-2">
+        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ $page->cover_image }}" alt="{{ $page->title }} cover image" class="mb-2 b-lazy">
     @endif
 
     <h1 class="leading-none mb-2">{{ $page->title }}</h1>
@@ -34,8 +34,8 @@
         @yield('content')
     </div>
 
-    <nav class="flex justify-between text-sm md:text-base">
-        <div>
+    <nav class="flex flex-col md:flex-row justify-between text-sm md:text-base">
+        <div class="text-left">
             @if ($next = $page->getNext())
                 <a href="{{ $next->getUrl() }}" title="Older Post: {{ $next->title }}">
                     &LeftArrow; {{ $next->title }}
@@ -43,7 +43,7 @@
             @endif
         </div>
 
-        <div>
+        <div class="text-right">
             @if ($previous = $page->getPrevious())
                 <a href="{{ $previous->getUrl() }}" title="Newer Post: {{ $previous->title }}">
                     {{ $previous->title }} &RightArrow;

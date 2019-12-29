@@ -2,6 +2,8 @@
 pagination:
     collection: posts
     perPage: 12
+categories:
+    collection: categories
 ---
 @extends('_layouts.master')
 
@@ -14,26 +16,18 @@ pagination:
 
 @section('body')
 
-    @foreach ($posts->where('featured', true)->take(1) as $featuredPost)
-        <div class="w-full mb-6">
-            @if ($featuredPost->cover_image)
-                <img src="{{ $featuredPost->cover_image }}" alt="{{ $featuredPost->title }} cover image" class="mb-6">
-            @endif
-
-            <p class="text-gray-700 font-medium my-2">
-                {{ $featuredPost->getDate()->format('F j, Y') }}
-            </p>
-
-            <h2 class="text-3xl mt-0">
-                <a href="{{ $featuredPost->getUrl() }}" title="Read {{ $featuredPost->title }}" class="text-gray-900 font-extrabold">
-                    {{ $featuredPost->title }}
-                </a>
-            </h2>
-
-            <p class="mt-0 mb-4">{!! $featuredPost->getExcerpt() !!}</p>
+    @if ($categories)
+        <div class="w-full mb-6 md:-mx-6 px-2">
+            @foreach ($categories as $category => $_category)
+            <a
+                    href="{{ '/blog/categories/' . $category }}"
+                    title="View posts in {{ $category }}"
+                    class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"
+                >{{ $category }}</a>
+            @endforeach
         </div>
         <hr class="border-b my-6">
-    @endforeach
+    @endif
 
     <div class="flex flex-col md:flex-row md:-mx-6 md:my-4 flex-wrap">
         @foreach ($pagination->items as $post)
