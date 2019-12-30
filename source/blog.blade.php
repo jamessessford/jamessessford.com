@@ -20,10 +20,12 @@ categories:
         <div class="w-full mb-6 md:-mx-6 px-2">
             @foreach ($categories as $category => $_category)
             <a
-                    href="{{ '/blog/categories/' . $category }}"
-                    title="View posts in {{ $category }}"
-                    class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"
-                >{{ $category }}</a>
+                href="{{ '/blog/categories/' . $category }}"
+                title="View posts in {{ $category }}"
+                class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"
+            >
+                {{ $category }}
+            </a>
             @endforeach
         </div>
         <hr class="border-b my-6">

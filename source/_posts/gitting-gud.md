@@ -62,8 +62,8 @@ set +x
 ##  Clone via SSH
 
 After setting up injection of my SSH keys, I went around the projects I had 
-on my machine and changed the remote from HTTPS to SSH. Now I can push directly 
-to them with the key I have added through ssh-agent.
+on my machine and changed the remote from HTTPS to SSH. Now I can interact with remote
+repositories without having to enter my username and password every time!
 
 ## WIP &amp; NAH
 
@@ -82,3 +82,9 @@ The second alias is nah. Nah is a git reset and clean to get your working tree b
 ```bash
 alias nah="git reset --hard && git clean -df"
 ```
+
+## GitLens
+
+GitLens gives VSCode super powers. I probably haven't scratched the surface of what
+this package can do but I can now instantly get the full commit/edit history for
+any project file from within the editor.
