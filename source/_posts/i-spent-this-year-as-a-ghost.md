@@ -2,14 +2,14 @@
 extends: _layouts.post
 section: content
 title: I spent this year as a ghost
-date: 2020-01-01
+date: 2019-12-31
 description: A look back on the last twelve months of my life.
 categories: [life]
 excerpt: A look back on the last twelve months of my life.
 cover_image: /assets/img/came-out-swinging.jpg
 ---
 
-I'm not one for being able to objectively look back over a length of time
+I'm not one for being able to objectively look back over a period of time
 and be able to pick out anything I think I've done of value - I recognise this
 as one of my major failings.
 
@@ -19,11 +19,10 @@ Twitter so thought I'd give it a shot.
 # Home
 
 I think the only regret I have at home for this year is not taking care of my mental 
-health as much as I should have. I think this is something that I definitely need to 
-see through and act on quickly in the new year.
+health as much as I should have. 
 
-Home life in general is fantastic, I'm still with my girlfriend and we now have a dog 
-and are finally starting to get the house in order!
+Home life in general is fantastic, I'm still living happily with my girlfriend 
+and we now have a dog and are finally starting to get the house in order!
 
 My brother and his family have also moved closer to us which is fantastic as I get to 
 see them a lot more often than I did before.
@@ -32,7 +31,7 @@ Going in to next year, my goals for my personal life would be:
 
     -   Prioritise my mental health more
     -   Set better boundaries for work in my spare time
-    -   Try to budget more and get better with money
+    -   Try to budget more and be better with money
 
 # Work
 
@@ -83,8 +82,8 @@ has been my primary source for learning new things over the past year, including
     -   TypeScript
     -   Tailwind CSS
     -   InertiaJS
+    -   Laravel Zero
 
 # Conclusions
 
-I think it's been a mixed year and that over the next year I should definitely have 
-more focus on my mental health.
+Prioritising my mental health and free time has to be the biggest focus of 2020.
