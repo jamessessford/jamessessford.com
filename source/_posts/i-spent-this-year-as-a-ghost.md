@@ -51,7 +51,7 @@ team that helps it grow.
 I think my goal for work for next year is to be less nomadic in the work I'm doing and 
 to stop bringing work home with me.
 
-# Freelance/Personal work
+# Freelance &amp; Personal work
 
 I didn't take on any freelance work over the last year but did have a few personal 
 moments I'm very happy with:
@@ -59,7 +59,7 @@ moments I'm very happy with:
 ## Open source
 
 I started contributing, or attempting to, open source software. I've written a couple 
-of packages in Packagest and NPM and it's been quite exciting having some software out 
+of packages in Packagist and NPM and it's been quite exciting having some software out 
 in the wild. 
 
 I didn't get unbelievable download stats but that wasn't really the goal. I put something
@@ -77,7 +77,7 @@ the last year. Nothing that's at release stage yet but I'm confident of beta rel
 the early months of the new year.
 
 It's been great to be able to play with different technologies in my spare time as this 
-has been my primary source for learning new things over the past year, including
+has been my primary source for learning new things over the past year, including:
 
     -   TypeScript
     -   Tailwind CSS
@@ -87,3 +87,8 @@ has been my primary source for learning new things over the past year, including
 # Conclusions
 
 Prioritising my mental health and free time has to be the biggest focus of 2020.
+
+Overall I'd say the past year, on paper at least, has been more of a success than 
+I thought it was but there is room for both personal and professional improvement.
+
+I'm looking forward to the challenges of the next year!
