@@ -15,4 +15,8 @@
         class="ml-6">
         <img class="h-8 mr-1 b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/img/linkedin-brands.svg" alt="Go to James Sessford's Linked In Account" />
     </a>
+    <a href="https://open.spotify.com/artist/02ohzrviz4Z6EKjBysCRcg"
+        class="ml-6">
+        <img class="h-8 mr-1 b-lazy" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/assets/img/spotify-brands.svg" alt="Go to The Shameful Bronze Spotify" />
+    </a>
 </nav>

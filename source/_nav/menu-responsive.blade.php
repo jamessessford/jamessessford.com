@@ -28,5 +28,12 @@
                 Linked In
             </a>
         </li>
+
+        <li class="px-4">
+            <a href="https://open.spotify.com/artist/02ohzrviz4Z6EKjBysCRcg"
+                class="nav-menu__item text-green-800 hover:text-green-900">
+                Spotify
+            </a>
+        </li>
     </ul>
 </nav>
