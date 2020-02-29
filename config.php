@@ -4,7 +4,7 @@ return [
     'baseUrl' => 'http://jamessessford.com.test',
     'production' => false,
     'siteName' => 'James Sessford',
-    'siteDescription' => 'A Scottish programmer, specialising in web application and UI development and currently spending time over the border.',
+    'siteDescription' => 'A Scottish programmer, specialising in web application and UI development.',
     'siteAuthor' => 'James Sessford',
 
     // collections
