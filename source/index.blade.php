@@ -18,26 +18,17 @@
 
     <h2 class="mb-2">The day job</h2>
 
-    <p class="mb-6 line-through">
-        By day I'm a senior developer at Atticus Consultancy and tasked with writing PHP, JavaScript or CSS. This can involve writing modules for
-        their <a href="http://atticusconsultancy.co.uk/sonelle">Sonelle CMS</a>
-        or using Sonelle to build rich user experiences for both Atticus' customers and their customer's customers.
+    <p class="mb-6">
+        By day I'm a senior developer at <a href="https://www.preferredmanagement.co.uk/">Preferred Management Solutions</a> and tasked with writing PHP, JavaScript &amp; CSS for Axis Workflow - a cloud based claims management system.
     </p>
 
-    <p class="mb-6">
-        On Friday, 28<sup>th</sup> February I finished my last shift with Atticus Consultancy and for this weekend I'm enjoying being a tech nomad.
-    </p>
-
-    <h2 class="mb-2">The moonlight</h2>
+    <h2 class="mb-2">The tech stack</h2>
 
     <p class="mb-6">
-        By night I'm writing software that I hope may leave a positive footprint on the journey of the internet. <br /><br />
         I started with the belief that if a project could run and be successful in the wild, it should be built and able to run
         on the most limited hardware I had access to. Whilst my original laptop and Rasbperry Pi have since been retired,
         this ethos has remained and all projects go through a deployment cycle reliant on my Raspberry Pi.
     </p>
-
-    <h2 class="mb-2">The tech stack</h2>
 
     <p class="mb-2">Day to day, I'll be working with:</p>
     <ul class="mb-6">
