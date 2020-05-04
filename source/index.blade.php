@@ -18,17 +18,17 @@
 
     <h2 class="mb-2">The day job</h2>
 
-    <p class="mb-6">
+    <p class="mb-2">
         By day I'm a senior developer at <a href="https://www.preferredmanagement.co.uk/">Preferred Management Solutions</a> and tasked with writing PHP, JavaScript &amp; CSS for Axis Workflow - a cloud based claims management system.
     </p>
 
-    <h2 class="mb-2">The tech stack</h2>
-
     <p class="mb-6">
-        I started with the belief that if a project could run and be successful in the wild, it should be built and able to run
+        I've long held the belief that if a project could run and be successful in the wild, it should be built and able to run
         on the most limited hardware I had access to. Whilst my original laptop and Rasbperry Pi have since been retired,
-        this ethos has remained and all projects go through a deployment cycle reliant on my Raspberry Pi.
+        this ethos has remained and all personal projects go through a development cycle reliant on my Raspberry Pi.
     </p>
+    
+    <h2 class="mb-2">The tech stack</h2>
 
     <p class="mb-2">Day to day, I'll be working with:</p>
     <ul class="mb-6">

@@ -1,7 +1,7 @@
 ---
 pagination:
     collection: posts
-    perPage: 12
+    perPage: 6
 categories:
     collection: categories
 ---
