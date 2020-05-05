@@ -3,6 +3,7 @@ extends: _layouts.post
 section: content
 title: Gitting gud
 date: 2019-12-26
+edited: 2020-04-08
 description: A couple of git optimisations in my work flow.
 categories: [git, ubuntu]
 excerpt: A couple of git optimisations in my work flow.
@@ -88,3 +89,12 @@ alias nah="git reset --hard && git clean -df"
 GitLens gives VSCode super powers. I probably haven't scratched the surface of what
 this package can do but I can now instantly get the full commit/edit history for
 any project file from within the editor.
+
+## Git Config (April 2020)
+
+I don't know how I missed this last time - an easy optimisation is to add your user to the config globally :)
+
+```bash
+git config --global user.name "Jane Doe"
+git config --global user.email "janedoe@converge.net"
+```

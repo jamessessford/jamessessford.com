@@ -52,5 +52,5 @@ server {
 
 ## Continuous Delivery
 
-The NGINX setup I'm using above allows me to achieve continuous delivery of my projects. ```/current/``` is symlinked to the correct folder during my deployment process.
+The NGINX setup I'm using above allows me to achieve continuous delivery of my projects; ```/current/``` is symlinked to the correct folder during my deployment process.
 
