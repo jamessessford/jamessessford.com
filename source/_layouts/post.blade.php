@@ -14,9 +14,9 @@
 
     <h1 class="leading-none mb-2">{{ $page->title }}</h1>
 
-    <p class="text-gray-700 text-xl md:mt-0">{{ $page->author }}  •  {{ date('F j, Y', $page->date) }}
+    <p class="text-gray-700 text-xl md:mt-0">{{ $page->author }}  •  {{ date('l F jS, Y', $page->date) }}
         @if ($page->edited)
-         • Edited {{ date('F j, Y', $page->edited) }}
+         • Edited {{ date('l F jS, Y', $page->edited) }}
         @endif
     </p>
 
