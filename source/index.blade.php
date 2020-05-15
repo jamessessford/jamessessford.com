@@ -25,7 +25,7 @@
     <p class="mb-6">
         I've long held the belief that if a project could run and be successful in the wild, it should be built and able to run
         on the most limited hardware I had access to. Whilst my original laptop and Rasbperry Pi have since been retired,
-        this ethos has remained and all personal projects go through a development cycle reliant on my Raspberry Pi.
+        this ethos has remained and all personal projects go through a development &amp; deployment cycle reliant on my Raspberry Pi.
     </p>
     
     <h2 class="mb-2">The tech stack</h2>

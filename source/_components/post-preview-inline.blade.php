@@ -4,7 +4,7 @@
     </p>
 
     @if ($post->categories)
-        <section class="flex flex-row my-2">
+        <section class="flex flex-row flex-wrap my-2">
             @foreach ($post->categories as $i => $category)
                 <span
                     class="inline-block bg-gray-300 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"

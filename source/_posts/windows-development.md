@@ -4,7 +4,7 @@ section: content
 title: Windows development
 date: 2019-12-01
 description: A look at the environment I've built for web development on Windows.
-categories: [development]
+categories: [windows, development]
 excerpt: A look at the environment I've built for web development on Windows.
 ---
 
