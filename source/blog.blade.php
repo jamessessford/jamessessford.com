@@ -17,29 +17,24 @@ categories:
 @section('body')
 
     @if ($categories)
-        <div class="w-full mb-6 md:-mx-6 px-2">
+        <div class="flex flex-row justify-between flex-wrap">
             @foreach ($categories as $category => $_category)
             <a
                 href="{{ '/blog/categories/' . $category }}"
                 title="View posts in {{ $category }}"
-                class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"
+                class="bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded px-3 pt-px mb-2"
             >
                 {{ $category }}
             </a>
             @endforeach
         </div>
-        <hr class="border-b my-6">
     @endif
 
-    <div class="flex flex-col md:flex-row md:-mx-6 md:my-4 flex-wrap">
+    <div class="flex flex-col md:my-4 divide-y divide-gray-400">
         @foreach ($pagination->items as $post)
-            <div class="w-full md:w-1/3 px-2">
+            <div class="w-full">
                 @include('_components.post-preview-inline')
             </div>
-
-            @if (! $loop->last)
-                <hr class="block md:hidden w-full border-b mt-2 mb-6">
-            @endif
         @endforeach
     </div>
 
