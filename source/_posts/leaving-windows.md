@@ -4,7 +4,7 @@ section: content
 title: Leaving Windows
 date: 2019-12-07
 description: A look at the reasons that got me to leave Windows and give Ubuntu a proper try.
-categories: [ubuntu, development]
+categories: [ubuntu, development, windows]
 excerpt: A look at the reasons that got me to leave Windows and give Ubuntu a proper try.
 ---
 
