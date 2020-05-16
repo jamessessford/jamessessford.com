@@ -5,10 +5,10 @@
         </p>
 
         @if ($post->categories)
-            <section class="flex flex-row flex-wrap justify-start lg:justify-end space-x-2">
+            <section class="flex flex-row flex-wrap justify-start lg:justify-end">
                 @foreach ($post->categories as $i => $category)
                     <span
-                        class="inline-block bg-gray-300 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded px-3 pt-px"
+                        class="inline-block bg-gray-300 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded px-3 pt-px mr-2 mb-2"
                     >{{ $category }}</span>
                 @endforeach
             </section>

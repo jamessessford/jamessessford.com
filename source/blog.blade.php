@@ -17,12 +17,12 @@ categories:
 @section('body')
 
     @if ($categories)
-        <div class="flex flex-row justify-between flex-wrap">
+        <div class="flex flex-row justify-start flex-wrap">
             @foreach ($categories as $category => $_category)
             <a
                 href="{{ '/blog/categories/' . $category }}"
                 title="View posts in {{ $category }}"
-                class="bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded px-3 pt-px mb-2"
+                class="bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded px-3 pt-px mr-2 mb-2"
             >
                 {{ $category }}
             </a>
@@ -30,9 +30,9 @@ categories:
         </div>
     @endif
 
-    <div class="flex flex-col md:my-4 divide-y divide-gray-400">
+    <div class="flex flex-col md:my-4 divide-y divide-gray-400 space-y-2">
         @foreach ($pagination->items as $post)
-            <div class="w-full">
+            <div class="w-full py-4">
                 @include('_components.post-preview-inline')
             </div>
         @endforeach
