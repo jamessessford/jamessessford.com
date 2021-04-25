@@ -19,7 +19,7 @@
     <h2 class="mb-2">The day job</h2>
 
     <p class="mb-2">
-        By day I'm a senior developer at <a href="https://www.preferredmanagement.co.uk/">Preferred Management Solutions</a> and tasked with writing PHP, JavaScript &amp; CSS for Axis Workflow - a cloud based claims management system.
+        By day I'm <span class="line-through">a senior developer</span> an Axis Architect at <a href="https://www.preferredmanagement.co.uk/">Preferred Management Solutions</a> and tasked with writing PHP, JavaScript &amp; CSS for Axis Workflow - a cloud based claims management system.
     </p>
 
     <p class="mb-6">
@@ -27,7 +27,7 @@
         on the most limited hardware I had access to. Whilst my original laptop and Rasbperry Pi have since been retired,
         this ethos has remained and all personal projects go through a development &amp; deployment cycle reliant on my Raspberry Pi.
     </p>
-    
+
     <h2 class="mb-2">The tech stack</h2>
 
     <p class="mb-2">Day to day, I'll be working with:</p>
