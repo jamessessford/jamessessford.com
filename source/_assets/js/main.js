@@ -6,6 +6,11 @@ window.Blazy = require('blazy');
 import Search from './components/Search.vue';
 import hljs from 'highlight.js/lib/highlight';
 
+import 'alpine-magic-helpers';
+import alpine from 'alpinejs';
+
+window.alpine = alpine;
+
 // Syntax highlighting
 hljs.registerLanguage('bash', require('highlight.js/lib/languages/bash'));
 hljs.registerLanguage('css', require('highlight.js/lib/languages/css'));

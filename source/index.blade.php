@@ -19,7 +19,21 @@
     <h2 class="mb-2">The day job</h2>
 
     <p class="mb-2">
-        By day I'm <span class="line-through">a senior developer</span> an Axis Architect at <a href="https://www.preferredmanagement.co.uk/">Preferred Management Solutions</a> and tasked with writing PHP, JavaScript &amp; CSS for Axis Workflow - a cloud based claims management system.
+        By day I'm <span class="line-through">a senior developer</span> an Axis Architect at <a href="https://www.preferredmanagement.co.uk/">Preferred Management Solutions</a> and tasked with
+        <span
+            x-data="{
+                sentences: [
+                    'writing PHP, JavaScript &amp; CSS',
+                    'creating custom reports',
+                    'creating users',
+                    'developing APIs'
+                ]
+            }"
+            x-text="sentences[Math.floor(Math.random() * (sentences.length - 1))] ?? '???'"
+        >
+            ?
+        </span>
+        for Axis Workflow - a cloud based claims management system.
     </p>
 
     <p class="mb-6">
