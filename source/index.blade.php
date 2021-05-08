@@ -107,25 +107,29 @@
     <ul class="mb-6">
         <li>PHP</li>
         <li>Laravel</li>
-        <li>WordPress</li>
         <li>Livewire</li>
         <li>JavaScript</li>
-        <li>TypeScript</li>
-        <li>React</li>
         <li>Inertia.js</li>
-        <li>React Native (Android)</li>
-        <li>Redux</li>
         <li>CSS</li>
         <li>Tailwind</li>
-        <li>Less</li>
-        <li>Materialize</li>
-        <li>Skeleton</li>
         <li>MySQL</li>
-        <li>Redis</li>
-        <li>Docker</li>
         <li>Linux</li>
         <li>Git, GitFlow, GitHub &amp; BitBucket</li>
         <li>Node.js</li>
+    </ul>
+
+    <p class="mb-2">In the past, I've worked with:</p>
+    <ul class="mb-6">
+        <li>WordPress</li>
+        <li>TypeScript</li>
+        <li>React</li>
+        <li>React Native (Android)</li>
+        <li>Redux</li>
+        <li>Less</li>
+        <li>Materialize</li>
+        <li>Skeleton</li>
+        <li>Redis</li>
+        <li>Docker</li>
     </ul>
 
     <p class="mb-6">
