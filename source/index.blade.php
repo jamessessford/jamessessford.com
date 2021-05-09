@@ -86,7 +86,7 @@
         })()
         "
         >
-        By day I'm <span class="line-through">a senior developer</span> an Axis Architect at <a href="https://www.preferredmanagement.co.uk/">Preferred Management Solutions</a> and tasked with
+        By day I'm <span class="line-through">a senior developer</span> an Axis architect at <a href="https://www.preferredmanagement.co.uk/">Preferred Management Solutions</a> and tasked with
         <span
             x-text="text"
             class="mr-3"
@@ -112,6 +112,7 @@
         <li>Livewire</li>
         <li>JavaScript</li>
         <li>Inertia.js</li>
+        <li>Vue</li>
         <li>CSS</li>
         <li>Tailwind</li>
         <li>MySQL</li>
