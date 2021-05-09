@@ -28,7 +28,9 @@
                 'creating custom reports',
                 'creating users',
                 'developing APIs',
-                'deploying code'
+                'deploying code',
+                'wrangling spreadsheets',
+                'updating databases'
             ],
             textIndex: 0,
             charIndex: 0,
