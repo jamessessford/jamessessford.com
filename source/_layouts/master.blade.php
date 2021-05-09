@@ -57,7 +57,20 @@
 
         <footer class="bg-white text-center text-sm mt-12 py-4 justify-center" role="contentinfo">
             Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>,
-            <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a> and icons from <a href="https://fontawesome.com/license" title="Font Awesome website">Font Awesome</a>.
+            <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a> and <a href="https://github.com/alpinejs/alpine/">Alpine</a>.
+            <br />
+            <a href="https://github.com/jamessessford/">
+                Github
+            </a>
+            <a href="https://twitter.com/@sesticles" class="ml-4">
+                Twitter
+            </a>
+            <a href="https://uk.linkedin.com/in/james-sessford-349b1511" class="ml-4">
+                Linked In
+            </a>
+            <a href="https://open.spotify.com/artist/02ohzrviz4Z6EKjBysCRcg" class="ml-4">
+                Spotify
+            </a>
         </footer>
 
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
