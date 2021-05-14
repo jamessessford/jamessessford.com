@@ -38,14 +38,6 @@
                         <h1 class="no-underline text-lg md:text-2xl text-green-800 font-semibold hover:text-green-900 my-0">{{ $page->siteName }}</h1>
                     </a>
                 </div>
-
-                <div id="vue-search" class="flex flex-1 justify-end items-center">
-                    <search></search>
-
-                    @include('_nav.menu')
-
-                    @include('_nav.menu-toggle')
-                </div>
             </div>
         </header>
 
