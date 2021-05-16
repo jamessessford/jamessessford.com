@@ -135,7 +135,7 @@
         <li>Docker</li>
     </ul>
 
-    <!--<p class="mb-6">
+    <p class="mb-6">
         <a href="/blog" title="{{ $page->siteName }}' blog">In my blog</a>, you'll find musings on code, music, films, games and all of the other things I feel like talking about or trying to arrange into more cohesive thoughts.
-    </p>-->
+    </p>
 @endsection

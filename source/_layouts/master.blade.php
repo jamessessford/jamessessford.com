@@ -38,6 +38,14 @@
                         <h1 class="no-underline text-lg md:text-2xl text-green-800 font-semibold hover:text-green-900 my-0">{{ $page->siteName }}</h1>
                     </a>
                 </div>
+
+                <div id="vue-search" class="flex flex-1 justify-end items-center">
+                    <search></search>
+
+                    @include('_nav.menu')
+
+                    @include('_nav.menu-toggle')
+                </div>
             </div>
         </header>
 
@@ -51,7 +59,10 @@
             Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>,
             <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a> and <a href="https://github.com/alpinejs/alpine/">Alpine</a>.
             <br />
-            <a href="https://github.com/jamessessford/">
+            <a href="/blog">
+                Blog
+            </a>
+            <a href="https://github.com/jamessessford/" class="ml-4">
                 Github
             </a>
             <a href="https://twitter.com/@sesticles" class="ml-4">

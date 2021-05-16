@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => 'http://jamessessford.com.test',
+    'baseUrl' => 'http://localhost:8000',
     'production' => false,
     'siteName' => 'James Sessford',
     'siteDescription' => 'A Scottish programmer, specialising in web application and UI development.',
