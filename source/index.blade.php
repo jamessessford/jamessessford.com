@@ -1,4 +1,4 @@
-@extends('_layouts.master')
+@extends('_layouts.main')
 
 @push('meta')
     <meta property="og:title" content="About {{ $page->siteName }}" />
@@ -121,7 +121,7 @@
         <li>Node.js</li>
     </ul>
 
-    <p class="mb-2">In the past, I've worked with:</p>
+    <!-- <p class="mb-2">In the past, I've worked with:</p>
     <ul class="mb-6">
         <li>WordPress</li>
         <li>TypeScript</li>
@@ -133,7 +133,7 @@
         <li>Skeleton</li>
         <li>Redis</li>
         <li>Docker</li>
-    </ul>
+    </ul> -->
 
     <p class="mb-6">
         <a href="/blog" title="{{ $page->siteName }}' blog">In my blog</a>, you'll find musings on code, music, films, games and all of the other things I feel like talking about or trying to arrange into more cohesive thoughts.

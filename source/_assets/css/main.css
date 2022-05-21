@@ -1,23 +1,22 @@
-@tailwind base;
-@tailwind components;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
 
-// Code syntax highlighting,
-// powered by https://highlightjs.org
-@import '~highlight.js/styles/a11y-light.css';
+/* Code syntax highlighting, powered by https://highlightjs.org */
+@import 'highlight.js/styles/a11y-light.css';
 
 @import 'base';
-@import 'navigation';
 @import 'mailchimp';
 @import 'blog';
 
-@tailwind utilities;
+@import 'tailwindcss/utilities';
 
 .visually-hidden {
     position: absolute !important;
     height: 1px;
     width: 1px;
     overflow: hidden;
-    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
     clip: rect(1px, 1px, 1px, 1px);
     white-space: nowrap;
 }
@@ -27,10 +26,10 @@
     width: auto;
     height: auto;
     overflow: auto;
-    z-index:99999;
-    clip:unset;
+    z-index: 99999;
+    clip: unset;
 
     @media(max-width:1023px) {
-        width:100%;
+        width: 100%;
     }
 }

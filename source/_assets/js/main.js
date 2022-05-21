@@ -1,15 +1,11 @@
 window.axios = require('axios');
-window.fuse = require('fuse.js');
-window.Vue = require('vue');
-window.Blazy = require('blazy');
-
+import Vue from 'vue';
 import Search from './components/Search.vue';
-import hljs from 'highlight.js/lib/highlight';
+import hljs from 'highlight.js/lib/core';
+import Alpine from 'alpinejs';
 
-import 'alpine-magic-helpers';
-import alpine from 'alpinejs';
-
-window.alpine = alpine;
+window.Blazy = require('blazy');
+window.Alpine = Alpine;
 
 // Syntax highlighting
 hljs.registerLanguage('bash', require('highlight.js/lib/languages/bash'));
@@ -38,3 +34,5 @@ new Vue({
 }).$mount('#vue-search');
 
 var bLazy = new Blazy();
+
+Alpine.start();

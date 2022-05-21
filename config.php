@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => 'http://localhost:8000',
+    'baseUrl' => 'http://jamessessford.com.test',
     'production' => false,
     'siteName' => 'James Sessford',
     'siteDescription' => 'A Scottish programmer, specialising in web application and UI development.',
@@ -30,9 +30,6 @@ return [
     'getDate' => function ($page) {
         return Datetime::createFromFormat('U', $page->date);
     },
-    'getEdited' => function ($page) {
-        return Datetime::createFromFormat('U', ($page->edited ?? $page->date));
-    },
     'getExcerpt' => function ($page, $length = 255) {
         if ($page->excerpt) {
             return $page->excerpt;
@@ -47,7 +44,7 @@ return [
         );
 
         if (count($content) > 1) {
-            return $content[0];
+            return $cleaned;
         }
 
         $truncated = substr($cleaned, 0, $length);

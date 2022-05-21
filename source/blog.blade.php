@@ -5,7 +5,7 @@ pagination:
 categories:
     collection: categories
 ---
-@extends('_layouts.master')
+@extends('_layouts.main')
 
 @push('meta')
     <meta property="og:title" content="{{ $page->siteName }} Blog" />

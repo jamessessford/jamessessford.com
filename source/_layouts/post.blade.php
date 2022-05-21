@@ -1,4 +1,8 @@
-@extends('_layouts.master')
+@extends('_layouts.main')
+
+@php
+    $page->type = 'article';
+@endphp
 
 @push('meta')
     <meta property="og:title" content="{{ $page->title }}" />
@@ -9,16 +13,12 @@
 
 @section('body')
     @if ($page->cover_image)
-        <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="{{ $page->cover_image }}" alt="{{ $page->title }} cover image" class="mb-2 b-lazy">
+        <img src="{{ $page->cover_image }}" alt="{{ $page->title }} cover image" class="mb-2">
     @endif
 
     <h1 class="leading-none mb-2">{{ $page->title }}</h1>
 
-    <p class="text-gray-700 text-xl md:mt-0">{{ $page->author }}  •  {{ date('l F jS, Y', $page->date) }}
-        @if ($page->edited)
-         • Edited {{ date('l F jS, Y', $page->edited) }}
-        @endif
-    </p>
+    <p class="text-gray-700 text-xl md:mt-0">{{ $page->author }}  •  {{ date('F j, Y', $page->date) }}</p>
 
     @if ($page->categories)
         @foreach ($page->categories as $i => $category)
@@ -34,8 +34,8 @@
         @yield('content')
     </div>
 
-    <nav class="flex flex-col md:flex-row justify-between text-sm md:text-base">
-        <div class="text-left">
+    <nav class="flex justify-between text-sm md:text-base">
+        <div>
             @if ($next = $page->getNext())
                 <a href="{{ $next->getUrl() }}" title="Older Post: {{ $next->title }}">
                     &LeftArrow; {{ $next->title }}
@@ -43,7 +43,7 @@
             @endif
         </div>
 
-        <div class="text-right">
+        <div>
             @if ($previous = $page->getPrevious())
                 <a href="{{ $previous->getUrl() }}" title="Newer Post: {{ $previous->title }}">
                     {{ $previous->title }} &RightArrow;
