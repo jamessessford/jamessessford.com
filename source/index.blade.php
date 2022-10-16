@@ -111,8 +111,6 @@
         <li>Laravel</li>
         <li>Livewire</li>
         <li>JavaScript</li>
-        <li>Inertia.js</li>
-        <li>Vue</li>
         <li>CSS</li>
         <li>Tailwind</li>
         <li>MySQL</li>
@@ -125,6 +123,8 @@
     <ul class="mb-6">
         <li>WordPress</li>
         <li>TypeScript</li>
+        <li>Inertia.js</li>
+        <li>Vue</li>
         <li>React</li>
         <li>React Native (Android)</li>
         <li>Redux</li>
