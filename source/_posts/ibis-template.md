@@ -14,4 +14,4 @@ However, as with most tasks, I was looking for a way to improve my workflow with
 
 [https://github.com/jamessessford/ibis-template](https://github.com/jamessessford/ibis-template)
 
-The main features of the template are the VS Code extension recommendations, allowing me to see the PDF from within VS Code rather than having to open the file in a separate reader, and the auto build task for Ibis when I'm updating content in the document.
+The main features of the template are the VS Code extension recommendations, allowing me to see the PDF from within VS Code rather than having to open the file in a separate reader, and the auto build task for Ibis when I'm updating content in the document!
