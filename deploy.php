@@ -2,6 +2,7 @@
 namespace Deployer;
 
 require 'recipe/common.php';
+require 'contrib/rsync.php';
 
 set('application', 'jamessessford.com');
 set('repository', 'git@github.com:jamessessford/jamessessford.com.git');
@@ -14,6 +15,8 @@ set('keep_releases', 3);
 
 host('rrvwmrrr.com')
     ->user('ubuntu')
+    ->set('rsync_src', './../build_production')
+    ->set('rsync_dest', '{{release_path}}')
     ->set('deploy_path', '{{base_deploy_path}}/jamessessford.com');
 
 task('build', function() {
@@ -21,14 +24,10 @@ task('build', function() {
     run('./vendor/bin/jigsaw build production');
 })->local();
 
-task('upload', function(){
-    upload(__DIR__ . '/build_production/', '{{release_path}}');
-});
-
 task('release', [
     'deploy:prepare',
     'deploy:release',
-    'deploy:publish',
+    'rsync',
     'deploy:shared',
     'deploy:writable',
     'deploy:symlink',
