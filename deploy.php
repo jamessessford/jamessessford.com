@@ -21,9 +21,9 @@ task('build', function() {
     run('./vendor/bin/jigsaw build production');
 });
 
-// task('upload', function(){
-//     upload(__DIR__ . '/build_production/', '{{release_path}}');
-// });
+task('upload', function(){
+    upload(__DIR__ . '/build_production/', '{{release_path}}');
+});
 
 task('release', [
     'deploy:prepare',
@@ -35,8 +35,8 @@ task('release', [
 ]);
 
 task('deploy', [
-    'build',
     'release',
+    'build',
     'cleanup',
     'success',
 ]);
