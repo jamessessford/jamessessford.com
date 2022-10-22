@@ -9,11 +9,11 @@ set('git_tty', true);
 set('shared_dirs', []);
 set('shared_files', []);
 set('writable_dirs', []);
-set('remote_user', 'ubuntu');
 set('base_deploy_path', '/var/www');
 set('keep_releases', 3);
 
 host('rrvwmrrr.com')
+    ->user('ubuntu')
     ->set('deploy_path', '{{base_deploy_path}}/jamessessford.com');
 
 task('build', function() {
