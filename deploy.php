@@ -19,16 +19,16 @@ host('rrvwmrrr.com')
 task('build', function() {
     run('composer install');
     run('./vendor/bin/jigsaw build production');
-})->local();
-
-task('upload', function(){
-    upload(__DIR__ . '/build_production/', '{{release_path}}');
 });
+
+// task('upload', function(){
+//     upload(__DIR__ . '/build_production/', '{{release_path}}');
+// });
 
 task('release', [
     'deploy:prepare',
     'deploy:release',
-    'upload',
+    // 'upload',
     'deploy:shared',
     'deploy:writable',
     'deploy:symlink',
