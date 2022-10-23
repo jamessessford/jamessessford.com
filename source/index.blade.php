@@ -117,7 +117,6 @@
         <li>MySQL</li>
         <li>Linux</li>
         <li>Git, GitFlow, GitHub &amp; BitBucket</li>
-        <li>Node.js</li>
     </ul>
 
     <!-- <p class="mb-2">In the past, I've worked with:</p>
@@ -134,6 +133,7 @@
         <li>Skeleton</li>
         <li>Redis</li>
         <li>Docker</li>
+        <li>Node.js</li>
     </ul> -->
 
     <p class="mb-6">
