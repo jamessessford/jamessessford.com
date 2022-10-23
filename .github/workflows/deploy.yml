@@ -19,12 +19,20 @@ jobs:
               with:
                   php-version: 8.1
 
+            - name: Download `deployer.phar`
+              run: composer global require deployer/deployer --no-interaction --verbose --ansi
+
+            - name: Get composer global bin-dir path
+              id: composer-bin-dir
+              run: echo "::set-output name=path::$(composer global config bin-dir --absolute)"
+
             - name: Install Dependencies
               run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
 
             - name: Deploy
               uses: deployphp/action@master
               with:
+                  deployer-binary: ${{ steps.composer-bin-dir.outputs.path }}/dep
                   private-key: ${{ secrets.PRIVATE_KEY }}
                   known-hosts: ${{ secrets.KNOWN_HOSTS }}
                   dep: deploy rrvwmrrr.com
