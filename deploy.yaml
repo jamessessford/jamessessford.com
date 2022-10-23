@@ -1,0 +1,33 @@
+import:
+    - recipe/common.php
+    - contrib/rsync.php
+
+config:
+    application: 'jamessessford.com'
+    repository: 'git@github.com:jamessessford/jamessessford.com.git'
+
+    remote_user: ubuntu
+    base_deploy_path: '/var/www'
+    keep_releases: 3
+
+hosts:
+    prod:
+        hostname: 'rrvwmrrr.com'
+        deploy_path: '{{base_deploy_path}}/jamessessford.com'
+        rsync_src: './build_production'
+        rsync_dest: '{{release_path}}'
+
+tasks:
+    deploy:
+        - build
+        - deploy:info
+        - deploy:setup
+        - deploy:lock
+        - deploy:release
+        - rsync
+        - deploy:publish
+    build:
+        - run_locally: 'composer install && ./vendor/bin/jigsaw build production'
+
+after:
+    deploy:failed: deploy:unlock

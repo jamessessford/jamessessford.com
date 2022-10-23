@@ -30,7 +30,8 @@
                 'developing APIs',
                 'deploying code',
                 'wrangling spreadsheets',
-                'updating databases'
+                'updating databases',
+                'writing documentation'
             ],
             textIndex: 0,
             charIndex: 0,
