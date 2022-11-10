@@ -119,23 +119,6 @@
         <li>Git, GitFlow, GitHub &amp; BitBucket</li>
     </ul>
 
-    <!-- <p class="mb-2">In the past, I've worked with:</p>
-    <ul class="mb-6">
-        <li>WordPress</li>
-        <li>TypeScript</li>
-        <li>Inertia.js</li>
-        <li>Vue</li>
-        <li>React</li>
-        <li>React Native (Android)</li>
-        <li>Redux</li>
-        <li>Less</li>
-        <li>Materialize</li>
-        <li>Skeleton</li>
-        <li>Redis</li>
-        <li>Docker</li>
-        <li>Node.js</li>
-    </ul> -->
-
     <p class="mb-6">
         <a href="/blog" title="{{ $page->siteName }}' blog">In my blog</a>, you'll find musings on code, music, films, games and all of the other things I feel like talking about or trying to arrange into more cohesive thoughts.
     </p>
