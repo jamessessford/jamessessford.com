@@ -3,6 +3,7 @@ import Vue from 'vue';
 import Search from './components/Search.vue';
 import hljs from 'highlight.js/lib/core';
 import Alpine from 'alpinejs';
+import Typewriter from '@marcreichel/alpine-typewriter';
 
 window.Blazy = require('blazy');
 window.Alpine = Alpine;
@@ -35,4 +36,5 @@ new Vue({
 
 var bLazy = new Blazy();
 
+Alpine.plugin(Typewriter);
 Alpine.start();
