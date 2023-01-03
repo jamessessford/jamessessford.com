@@ -6,7 +6,7 @@ mix.setPublicPath('source/assets/build');
 
 mix.jigsaw()
     .js('source/_assets/js/main.js', 'js').vue()
-    .css('source/_assets/css/main.css', 'css/main.css', [
+    .css('source/_assets/css/main.css', 'css', [
         require('postcss-import'),
         require('tailwindcss/nesting'),
         require('tailwindcss'),
