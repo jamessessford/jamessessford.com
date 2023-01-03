@@ -55,6 +55,8 @@
             Built with <a href="http://jigsaw.tighten.co" title="Jigsaw by Tighten">Jigsaw</a>,
             <a href="https://tailwindcss.com" title="Tailwind CSS, a utility-first CSS framework">Tailwind CSS</a> and <a href="https://alpinejs.dev">Alpine</a>.
             <br />
+            Syntax highlighting by <a href="https://torchlight.dev">Torchlight</a>.
+            <br />
             <a href="/blog">
                 Blog
             </a>
