@@ -6,6 +6,9 @@ on:
         branches:
             - main
 
+env:
+  TORCHLIGHT_API_TOKEN: ${{ secrets.TORCHLIGHT_API_TOKEN }}
+
 jobs:
     deploy:
         name: Deploy

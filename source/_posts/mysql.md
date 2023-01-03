@@ -1,7 +1,7 @@
 ---
 extends: _layouts.post
 section: content
-title: MySQL 
+title: MySQL
 date: 2020-03-08
 description: A few reminders of how to work with MySQL.
 categories: [ubuntu, reminders]
@@ -18,18 +18,21 @@ I'm currently using DBeaver &amp; MyCLI on my Ubuntu laptop &amp; HeidiSQL at wo
 ## Databases
 
 ```sql
+// torchlight! {"lineNumbers": false}
 CREATE DATABASE mydatabase;
 ```
 
 ## Users
 
 ```sql
+// torchlight! {"lineNumbers": false}
 CREATE USER 'mydatabaseuser'@'%' IDENTIFIED WITH mysql_native_password BY 'mydatabasepassword';
 ```
 
 ## Permissions
 
 ```sql
+// torchlight! {"lineNumbers": false}
 GRANT ALL ON mydatabase.* to 'mydatabaseuser'@'%';
 FLUSH PRIVILEGES;
 ```
@@ -37,6 +40,7 @@ FLUSH PRIVILEGES;
 ## Access
 
 ```bash
+// torchlight! {"lineNumbers": false}
 mycli -u mydatabaseuser -p mydatabase
 ```
 

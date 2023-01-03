@@ -1,7 +1,7 @@
 ---
 extends: _layouts.post
 section: content
-title: NGINX 
+title: NGINX
 date: 2020-03-23
 description: NGINX stubs and reminders.
 categories: [ubuntu, reminders]
@@ -12,6 +12,7 @@ NGINX has been my web server of choice for quite a few years now.
 There are many approaches for fine tuning but the template below serves as the starting point for a new Laravel project:
 
 ```nginx
+// torchlight! {"lineNumbers": false}
 server {
 
     ## Begin - Server Info
@@ -53,4 +54,3 @@ server {
 ## Continuous Delivery
 
 The NGINX setup I'm using above allows me to achieve continuous delivery of my projects; ```/current/``` is symlinked to the correct folder during my deployment process.
-

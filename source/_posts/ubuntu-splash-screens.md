@@ -38,23 +38,23 @@ afraid to ask your parents".
 ##  Everything you ever wanted to know about DOS but were afraid to ask your parents
 
 This book became my bible. With it I was able to build context menus to help my
-parents around the computer, create boot disks for games that demanded more resource 
+parents around the computer, create boot disks for games that demanded more resource
 and then finally, with the discovery of ANSI.sys, change the entire look and feel of
 the DOS command prompt that I loved.
 
 The 486 eventually left us to visit the big mainframe in the sky but the ideas I
 learned playing on that have always stuck with me:
-    
-An interface should be simple and easy to understand whilst also providing useful 
-feedback. 
+
+An interface should be simple and easy to understand whilst also providing useful
+feedback.
 
 Having control over the style of the console was fantastic.
 
 ##  An impressionable child sees Hackers
 
-We didn't have a computer in the house at the time I saw Hackers, and wouldn't for 
-many years later, but I never forgot the splash screens that everyone had when they 
-booted up their laptop. That seemed the obvious extension to me from being able to 
+We didn't have a computer in the house at the time I saw Hackers, and wouldn't for
+many years later, but I never forgot the splash screens that everyone had when they
+booted up their laptop. That seemed the obvious extension to me from being able to
 customise the console.
 
 I wouldn't remember to actually try this until many, *many* years later.
@@ -62,6 +62,7 @@ I wouldn't remember to actually try this until many, *many* years later.
 ##  Enter, Plymouth!
 
 ```bash
+// torchlight! {"lineNumbers": false}
 sudo apt get plymouth-themes
 ```
 
@@ -92,14 +93,14 @@ Move the three files you've created to
 
     /usr/share/plymouth/themes/ubuntu-logo/
 
-The default background colour for the splash screen can be updated in 
+The default background colour for the splash screen can be updated in
 
     /usr/share/plymouth/themes/ubuntu-logo/ubuntu-logo.script
 
 You're looking for the following function calls:
-    
+
     Window.SetBackgroundTopColor
     Window.SetBackgroundBottomColor
 
-After completing this you're good to reboot and see your Hackersesque splash screen 
+After completing this you're good to reboot and see your Hackersesque splash screen
 in all its glory!
