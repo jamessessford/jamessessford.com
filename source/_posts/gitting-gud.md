@@ -23,7 +23,6 @@ I modified this from a Stack Overflow answer, it'll add the desired keys to SSH 
 I have this at the bottom of my ~/.zshrc config file
 
 ```bash
-// torchlight! {"lineNumbers": false}
 # Start ssh-agent to keep you logged in with keys, use `ssh-add` to log in
 agent=`pgrep ssh-agent -u $USER` # get only your agents
 if [[ "$agent" == "" || ! -e ~/.ssh/.agent_env ]]; then
@@ -73,7 +72,6 @@ Earlier this year Dave Hemphill tweeted about the power of WIP. Essentially that
 the only commit message you need. That gives us our first alias
 
 ```bash
-// torchlight! {"lineNumbers": false}
 alias wip="git add . && git commit -m 'WIP'"
 ```
 
@@ -83,7 +81,6 @@ are necessary but for me to quickly save state and gaurantee that I'm storing pr
 The second alias is nah. Nah is a git reset and clean to get your working tree back to the state of the last commit.
 
 ```bash
-// torchlight! {"lineNumbers": false}
 alias nah="git reset --hard && git clean -df"
 ```
 
@@ -98,7 +95,6 @@ any project file from within the editor.
 I don't know how I missed this last time - an easy optimisation is to add your user to the config globally :)
 
 ```bash
-// torchlight! {"lineNumbers": false}
 git config --global user.name "Jane Doe"
 git config --global user.email "janedoe@converge.net"
 ```

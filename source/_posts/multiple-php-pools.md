@@ -20,7 +20,6 @@ One of the new features of PHP that I wanted to experiment with was preloading b
 PHP pools are seperate processes that can each be used to serve a subset of requests. You'll probably already be using the default pool at the moment:
 
 ```nginx
-// torchlight! {"lineNumbers": false}
 server {
     ###
 
@@ -37,7 +36,6 @@ server {
 On Ubuntu, PHP pool configuration is located at ```/etc/php/7.4/fpm/pool.d/```. I'd start by copying the template that's there for my new pool.
 
 ```bash
-// torchlight! {"lineNumbers": false}
 cd /etc/php/7.4/fpm/pool.d
 sudo cp www.conf www2eb.conf
 ```
@@ -45,14 +43,12 @@ sudo cp www.conf www2eb.conf
 You'll then want to edit this file and update, at minimum, a setting or two.
 
 ```bash
-// torchlight! {"lineNumbers": false}
 sudo nano www2eb.conf
 ```
 
 Update the name of the pool:
 
-```toml
-// torchlight! {"lineNumbers": false}
+```ini
 ; Start a new pool named 'www'.
 ; the variable $pool can be used in any directive and will be replaced by the
 ; pool name ('www' here)
@@ -61,8 +57,7 @@ Update the name of the pool:
 
 If you want to change the user that owns the pool, update the following:
 
-```toml
-// torchlight! {"lineNumbers": false}
+```ini
 ; Unix user/group of processes
 ; Note: The user is mandatory. If the group is not set, the default user's group
 ;       will be used.
@@ -71,8 +66,7 @@ user = poolowner
 
 Lastly, we need to give it a different socket so we can send requests to it via NGINX
 
-```toml
-// torchlight! {"lineNumbers": false}
+```ini
 ; Note: This value is mandatory.
 listen = /run/php/php7.4-fpm.poolowner.sock
 ```
@@ -80,7 +74,6 @@ listen = /run/php/php7.4-fpm.poolowner.sock
 Now that we've updated the PHP pools, we need to update our NGINX server block to point to the correct socket:
 
 ```nginx
-// torchlight! {"lineNumbers": false}
 server {
     ###
 
@@ -95,7 +88,6 @@ server {
 We've now made all of the updates that we need, it's time to restart our services:
 
 ```bash
-// torchlight! {"lineNumbers": false}
 sudo service nginx restart && sudo service php-7.4-fpm restart
 ```
 

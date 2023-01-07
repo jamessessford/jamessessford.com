@@ -11,7 +11,6 @@ excerpt: Initial NPM setup that always slips my mind.
 I was setting up a Rasperry Pi over the weekend and I'd forgotten how to set up NPM permissions so I don't have to use sudo to install global packages
 
 ```bash
-// torchlight! {"lineNumbers": false}
 mkdir ~/.npm-global
 npm config set prefix '~/.npm-global'
 ```

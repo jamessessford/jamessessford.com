@@ -12,7 +12,6 @@ NGINX has been my web server of choice for quite a few years now.
 There are many approaches for fine tuning but the template below serves as the starting point for a new Laravel project:
 
 ```nginx
-// torchlight! {"lineNumbers": false}
 server {
 
     ## Begin - Server Info

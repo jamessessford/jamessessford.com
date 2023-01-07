@@ -62,7 +62,6 @@ I wouldn't remember to actually try this until many, *many* years later.
 ##  Enter, Plymouth!
 
 ```bash
-// torchlight! {"lineNumbers": false}
 sudo apt get plymouth-themes
 ```
 
