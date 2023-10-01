@@ -6,8 +6,8 @@ config:
     application: 'jamessessford.com'
     repository: 'git@github.com:jamessessford/jamessessford.com.git'
 
-    remote_user: ubuntu
-    base_deploy_path: '/var/www'
+    remote_user: rrvwmrrr
+    base_deploy_path: '/home/rrvwmrrr/www'
     keep_releases: 3
 
 hosts:
