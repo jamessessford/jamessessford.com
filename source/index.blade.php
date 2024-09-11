@@ -16,32 +16,6 @@
 
     <p class="mb-6">A Scottish programmer, specialising in web application and UI development.</p>
 
-    <h2 class="mb-2">The day job</h2>
-
-    <p class="mb-2 relative">
-        By day I'm <span class="line-through">a senior developer</span> an Axis architect at <a href="https://www.preferredmanagement.co.uk/">Preferred Management Solutions</a> and tasked with
-        <span
-            x-data="
-            {
-                texts : [
-                    'writing PHP, JavaScript &amp; CSS',
-                    'creating custom reports',
-                    'creating users',
-                    'developing APIs',
-                    'deploying code',
-                    'wrangling spreadsheets',
-                    'updating databases',
-                    'writing documentation'
-                ]
-            }"
-            x-typewriter.1s="texts"
-            class="mr-1"
-        >
-            ?
-        </span>
-        for Axis Workflow - a cloud based claims management system.
-    </p>
-
     <p class="mb-6">
         I've long held the belief that if a project could run and be successful in the wild, it should be built and able to run
         on the most limited hardware I had access to. Whilst my original laptop and Rasbperry Pi have since been retired,

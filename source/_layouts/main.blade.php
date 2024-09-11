@@ -57,7 +57,10 @@
             <br />
             Syntax highlighting by <a href="https://torchlight.dev">Torchlight</a>.
             <br />
-            <a href="/blog">
+            <a href="/assets/cv.pdf" target="_blank">
+                My CV
+            </a>
+            <a href="/blog" class="ml-4">
                 Blog
             </a>
             <a href="https://github.com/jamessessford/" class="ml-4">
