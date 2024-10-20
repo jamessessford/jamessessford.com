@@ -69,7 +69,7 @@
             <a href="https://twitter.com/@sesticles" class="ml-4">
                 Twitter
             </a>
-            <a href="https://uk.linkedin.com/in/james-sessford-349b1511" class="ml-4">
+            <a href="https://www.linkedin.com/in/🤙-james-sessford-349b1511/" class="ml-4">
                 Linked In
             </a>
             <a href="https://open.spotify.com/artist/02ohzrviz4Z6EKjBysCRcg" class="ml-4">
