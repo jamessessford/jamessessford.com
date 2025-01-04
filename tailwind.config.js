@@ -1,17 +1,15 @@
 const defaults = require('tailwindcss/defaultTheme');
 
 module.exports = {
-    purge: {
-        content: [
-            'source/**/*.html',
-            'source/**/*.md',
-            'source/**/*.js',
-            'source/**/*.php',
-            'source/**/*.vue',
-        ],
-        options: {
-            safelist: [/language/, /hljs/, /mce/],
-        },
+    content: require('fast-glob').sync([
+        'source/**/*.html',
+        'source/**/*.md',
+        'source/**/*.js',
+        'source/**/*.php',
+        'source/**/*.vue',
+    ]),
+    options: {
+        safelist: [/language/, /hljs/, /mce/],
     },
     theme: {
         extend: {
@@ -40,11 +38,6 @@ module.exports = {
             '4xl': '2.125rem',
             '5xl': '2.625rem',
             '6xl': '10rem',
-        },
-    },
-    variants: {
-        extend: {
-            width: ['focus'],
         },
     },
 };

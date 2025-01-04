@@ -27,7 +27,7 @@ tasks:
         - rsync
         - deploy:publish
     build:
-        - run_locally: 'composer install && ./vendor/bin/jigsaw build production'
+        - run_locally: './vendor/bin/jigsaw build production && npx torchlight'
 
 after:
     deploy:failed: deploy:unlock

@@ -138,15 +138,16 @@ pre {
  colors extend edge to edge.
 */
 
-pre code.torchlight {
-    @apply block py-4 min-w-max;
+pre.torchlight code {
+    @apply block py-4 px-0 min-w-max;
+    @apply bg-transparent;
 }
 
 /*
  Horizontal line padding.
 */
 
-pre code.torchlight .line {
+pre.torchlight code .line {
     @apply px-4;
 }
 
@@ -155,8 +156,8 @@ pre code.torchlight .line {
  summary caret indicators.
 */
 
-pre code.torchlight .line-number,
-pre code.torchlight .summary-caret {
+pre.torchlight code .line-number,
+pre.torchlight code .summary-caret {
     @apply mr-4;
 }
 
@@ -164,3 +165,5 @@ pre code.torchlight .summary-caret {
     @apply text-white;
     @apply bg-blue-400;
 }
+
+[x-cloak] { display: none !important; }
