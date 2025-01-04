@@ -28,6 +28,10 @@ jobs:
             - name: Download `deployer.phar`
               run: composer global require deployer/deployer --no-interaction --verbose --ansi
 
+            - name: Get composer global bin-dir path
+              id: composer-bin-dir
+              run: echo "COMPOSER_PATH=$(composer global config bin-dir --absolute)" >> "$GITHUB_ENV"
+
             - name: Install Dependencies
               run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
 
@@ -37,6 +41,7 @@ jobs:
             - name: Deploy
               uses: deployphp/action@master
               with:
+                  deployer-binary: ${{ env.COMPOSER_PATH }}/dep
                   private-key: ${{ secrets.PRIVATE_KEY }}
                   known-hosts: ${{ secrets.KNOWN_HOSTS }}
                   dep: deploy
